@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+       
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light">
+      	<item name="android:actionBarStyle">@style/MyTabs</item>
+      	<item name="android:actionBarTabTextStyle">@style/ActionBarText</item>
+    </style>
+    
+    <style name="MyTabs" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#44aadf</item>
+        <item name="android:backgroundStacked">#CC0000</item>
+        <!--  <item name="android:backgroundSplit">#44aadf</item>-->
+	</style>
+	
+    <style name="ActionBarText" parent="@android:style/TextAppearance">
+    	<item name="android:textColor">#FFFFFF</item>
+	</style>
+</resources>
